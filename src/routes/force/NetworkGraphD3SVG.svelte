@@ -34,7 +34,7 @@
             .force("center", d3.forceCenter(width / 2, height / 2))
             .on('tick', simulationUpdate);
         
-        svg = d3.select(".chart")
+        svg = d3.selectAll(".chart")
             .append("svg")
             .attr("width", width)
             .attr("height", height)
