@@ -216,4 +216,4 @@
 
 <svelte:window on:resize='{resize}'/>
 
-<div class='chartdiv'></div>
+<div class='container'></div>
