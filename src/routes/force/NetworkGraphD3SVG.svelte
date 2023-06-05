@@ -1,4 +1,4 @@
-<h2>d3 Force Directed Graph in Sveltejs - D3 created svg (allows zoom)</h2>
+<!-- <h2>d3 Force Directed Graph in Sveltejs - D3 created svg (allows zoom)</h2> -->
 <script>
     import { onMount, onDestroy } from 'svelte';
     import { scaleLinear, scaleOrdinal } from 'd3-scale';
@@ -64,7 +64,7 @@
 
             .attr("stroke-linecap", "round")
             .attr("stroke-linejoin", "round")
-            
+
             .selectAll("circle")
             .data(nodes)
             .join("circle")
@@ -77,6 +77,7 @@
         
         // node.append("title")
         //     .text(d => d.label);
+           
 
         const textElems = g
                 .append("g")
@@ -91,7 +92,6 @@
                 .style("text-anchor", "middle")
                 //.style("pointer-events", "none")
                 .style("cursor", "pointer")
-  
                 .text((d) => (d.title ? d.title : d.label))
                 .call(drag(simulation));
 

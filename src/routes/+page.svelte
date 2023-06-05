@@ -8,9 +8,10 @@
 </script>
 
 
-<h1>Welcome to SvelteKit</h1>
+<h1 class="mb-2 text-3xl font-bold tracking-tight md:text-5xl py-2">Hello World</h1>
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-<p><a href="/force">Force</a></p>
+
+
 
 
 <div class="chart">
